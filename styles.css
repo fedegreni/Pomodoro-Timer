@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #app {
+    background-color: #ffffff;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  #time {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #time #value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #time #taskName {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 280px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .task .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .start-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-button:hover {
+    background-color: #218838;
+  }
+  
+  .done {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .title {
+    flex-grow: 1;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
